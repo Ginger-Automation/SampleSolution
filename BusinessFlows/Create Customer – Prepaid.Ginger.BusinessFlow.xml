@@ -1,14 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="018bd31a-5f94-406c-9bf7-022156c4475e" ItemType="BusinessFlow" CreatedBy="MOHDKHAN" Created="201912260632" GingerVersion="3.4.0.0" Version="1" LastUpdateBy="MOHDKHAN" LastUpdate="201912260632" />
+<GingerRepositoryItem><Header ItemGuid="018bd31a-5f94-406c-9bf7-022156c4475e" ItemType="BusinessFlow" CreatedBy="MOHDKHAN" Created="201912260632" GingerVersion="3.5.0.0" Version="3" LastUpdateBy="mahessha" LastUpdate="202001090638" />
 <BusinessFlow Guid="018bd31a-5f94-406c-9bf7-022156c4475e" Name="Create Customer – Prepaid" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="b2441650-7447-4b8f-ac85-455bd25a2e1e" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="b2441650-7447-4b8f-ac85-455bd25a2e1e" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp">
+<Variables>
+<VariableString Guid="64390894-faf8-4f17-bfaf-2760d14f6726" MappedOutputType="None" Name="ActivityVar1" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<VariableString Guid="bfab856a-f5b9-4739-aeb5-306807858e9d" MappedOutputType="None" Name="ActivityVar2" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Variables>
+</Activity>
 </Activities>
 
 <ActivitiesGroups>
 <ActivitiesGroup Guid="76e7b030-1837-4c4e-ae7d-597cc8fd3d38" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b2441650-7447-4b8f-ac85-455bd25a2e1e" ActivityName="Activity 1" Guid="63132dd3-86a0-4e2b-a041-a49340044c73" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b2441650-7447-4b8f-ac85-455bd25a2e1e" ActivityName="Activity 1" Guid="f3d944eb-af5c-4edd-b959-b429079de55c" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
@@ -16,4 +21,9 @@
 <TargetApplications>
 <TargetApplication AppName="MyWebApp" Guid="8e49499d-c573-4c7d-bf02-e38fa1600342" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </TargetApplications>
+
+<Variables>
+<VariableString Guid="757794a4-5080-4837-ae9c-e334a4868a58" MappedOutputType="None" Name="GlobalVar1" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<VariableString Guid="fdaf2706-8abc-444f-bc8d-1c57d260dc7f" MappedOutputType="None" Name="GlobalVar2" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Variables>
 </BusinessFlow></GingerRepositoryItem>
