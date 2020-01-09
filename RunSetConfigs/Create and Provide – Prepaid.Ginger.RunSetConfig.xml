@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="1599e2a0-ecd3-4c1e-b1f7-a3330c6a9804" ItemType="RunSetConfig" CreatedBy="MOHDKHAN" Created="201912260633" GingerVersion="3.4.0.0" Version="2" LastUpdateBy="MOHDKHAN" LastUpdate="201912260633" />
+<RunSetConfig Guid="1599e2a0-ecd3-4c1e-b1f7-a3330c6a9804" Name="Create and Provide – Prepaid" ParentGuid="00000000-0000-0000-0000-000000000000">
+<GingerRunners>
+<GingerRunner Guid="5e52abe7-7094-48ea-9a1f-73cea9ba2f65" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AgentName="MyWebApp - Agent 1" AppName="MyWebApp" Guid="1ce2684d-d31a-4e19-91ac-712745deb67b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="018bd31a-5f94-406c-9bf7-022156c4475e" BusinessFlowInstanceGuid="4c5c4978-69ab-4e90-a87f-e76f458bdadd" BusinessFlowIsActive="True" BusinessFlowName="Create Customer – Prepaid" Guid="df990670-6f59-4b30-90cc-28420198d2df" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="acf8ae73-45a5-4ece-ba9a-8e3b305b3053" BusinessFlowInstanceGuid="bf009bfc-41f9-4199-9b65-970c798643d0" BusinessFlowIsActive="True" BusinessFlowName="Provide – Prepaid" Guid="e5232679-fa56-4de3-b3cc-cb51d6de22ec" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+</GingerRunners>
+</RunSetConfig></GingerRepositoryItem>

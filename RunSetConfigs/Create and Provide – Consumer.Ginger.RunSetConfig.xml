@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="cfaaa333-3044-4901-bf47-356c343cbaad" ItemType="RunSetConfig" CreatedBy="MOHDKHAN" Created="201912260632" GingerVersion="3.4.0.0" Version="2" LastUpdateBy="MOHDKHAN" LastUpdate="201912260632" />
+<RunSetConfig Guid="cfaaa333-3044-4901-bf47-356c343cbaad" Name="Create and Provide – Consumer" ParentGuid="00000000-0000-0000-0000-000000000000">
+<GingerRunners>
+<GingerRunner Guid="0b606eee-5f79-4808-9042-7e236d5bfea8" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AgentName="MyWebApp - Agent 1" AppName="MyWebApp" Guid="84b718a4-4c9e-4f7b-9c50-a735cf251f74" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="f2aabed7-fa0c-49a8-82ed-29db38c48ac7" BusinessFlowInstanceGuid="ed8876d6-f975-413b-811b-3ee21df1e25a" BusinessFlowIsActive="True" BusinessFlowName="Create Customer – Consumer" Guid="e0040b16-74ba-43f1-853c-c89c8c511cc1" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="a911647d-e251-4a1b-a5db-eff58ec645b4" BusinessFlowInstanceGuid="77ab6816-6cde-41aa-8100-f33c20009f1a" BusinessFlowIsActive="True" BusinessFlowName="Provide – Consumer" Guid="31e2bfa6-1809-4499-ae0d-c7a46344fca5" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+</GingerRunners>
+</RunSetConfig></GingerRepositoryItem>

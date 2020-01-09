@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="018bd31a-5f94-406c-9bf7-022156c4475e" ItemType="BusinessFlow" CreatedBy="MOHDKHAN" Created="201912260632" GingerVersion="3.4.0.0" Version="1" LastUpdateBy="MOHDKHAN" LastUpdate="201912260632" />
+<BusinessFlow Guid="018bd31a-5f94-406c-9bf7-022156c4475e" Name="Create Customer – Prepaid" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="b2441650-7447-4b8f-ac85-455bd25a2e1e" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="76e7b030-1837-4c4e-ae7d-597cc8fd3d38" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b2441650-7447-4b8f-ac85-455bd25a2e1e" ActivityName="Activity 1" Guid="63132dd3-86a0-4e2b-a041-a49340044c73" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="8e49499d-c573-4c7d-bf02-e38fa1600342" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="acf8ae73-45a5-4ece-ba9a-8e3b305b3053" ItemType="BusinessFlow" CreatedBy="MOHDKHAN" Created="201912260632" GingerVersion="3.4.0.0" Version="1" LastUpdateBy="MOHDKHAN" LastUpdate="201912260632" />
+<BusinessFlow Guid="acf8ae73-45a5-4ece-ba9a-8e3b305b3053" Name="Provide – Prepaid" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="c748f56d-dbf1-4614-8123-c11b8b243c34" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="f16be7d1-b5dc-47cf-85ca-bf6758eef6ce" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c748f56d-dbf1-4614-8123-c11b8b243c34" ActivityName="Activity 1" Guid="72a19717-1dde-4743-95c9-a559eff71920" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="124a2e60-2861-4df3-9e10-49f98294a227" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
