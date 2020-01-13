@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="b7f9ea86-1bbb-4280-aea3-82c2dd1c8a14" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001131316" GingerVersion="3.5.0.0" Version="4" LastUpdateBy="MENIK" LastUpdate="202001131319" />
+<GingerRepositoryItem><Header ItemGuid="b7f9ea86-1bbb-4280-aea3-82c2dd1c8a14" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001131316" GingerVersion="3.5.0.0" Version="14" LastUpdateBy="MENIK" LastUpdate="202001131436" />
 <RunSetConfig Guid="b7f9ea86-1bbb-4280-aea3-82c2dd1c8a14" Name="MeniRunset_1" ParentGuid="00000000-0000-0000-0000-000000000000">
 <GingerRunners>
 <GingerRunner Guid="5d433856-a9ab-4f03-9219-5704852b3844" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
 <ApplicationAgents>
-<ApplicationAgent AgentName="Chrome" AppName="DemoStore" Guid="6e140264-0a8e-4de5-89a2-d01e76b04b96" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ApplicationAgent AgentID="68d24e24-9ce8-4258-9307-8f53341d3c3e" AgentName="Chrome" AppID="72e9df98-0ccc-4b7b-937e-c4212689106c" AppName="DemoStore" Guid="57a642a9-b6c9-4052-b007-66f13fef3c87" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ApplicationAgents>
 
 <BusinessFlowsRunList>
-<BusinessFlowRun BusinessFlowGuid="bf22b221-5373-4109-b719-c097a3734129" BusinessFlowInstanceGuid="c4186b4c-806c-4b04-8aa2-120647fa1870" BusinessFlowIsActive="True" BusinessFlowName="DemoStore Login" Guid="23773d93-7cdc-449f-aa26-a859ce0026cd" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="bf22b221-5373-4109-b719-c097a3734129" BusinessFlowInstanceGuid="0db1cfa0-43f7-4b37-b7b3-210cb5dfbabc" BusinessFlowIsActive="True" BusinessFlowName="DemoStore Login" Guid="c632e48d-8904-401e-8a3e-c88f6270da09" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </BusinessFlowsRunList>
 </GingerRunner>
 </GingerRunners>
