@@ -1,16 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="1599e2a0-ecd3-4c1e-b1f7-a3330c6a9804" ItemType="RunSetConfig" CreatedBy="MOHDKHAN" Created="201912260633" GingerVersion="3.4.0.0" Version="2" LastUpdateBy="MOHDKHAN" LastUpdate="201912260633" />
+<GingerRepositoryItem><Header ItemGuid="1599e2a0-ecd3-4c1e-b1f7-a3330c6a9804" ItemType="RunSetConfig" CreatedBy="MOHDKHAN" Created="201912260633" GingerVersion="3.5.0.0" Version="26" LastUpdateBy="mahessha" LastUpdate="202001281555" />
 <RunSetConfig Guid="1599e2a0-ecd3-4c1e-b1f7-a3330c6a9804" Name="Create and Provide – Prepaid" ParentGuid="00000000-0000-0000-0000-000000000000">
 <GingerRunners>
 <GingerRunner Guid="5e52abe7-7094-48ea-9a1f-73cea9ba2f65" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
 <ApplicationAgents>
-<ApplicationAgent AgentName="MyWebApp - Agent 1" AppName="MyWebApp" Guid="1ce2684d-d31a-4e19-91ac-712745deb67b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ApplicationAgent AgentID="4798350a-b5dc-4b37-ac3e-aa056b53cd08" AgentName="MyWebApp - Agent 1" AppID="00000000-0000-0000-0000-000000000000" AppName="MyWebApp" Guid="1ce2684d-d31a-4e19-91ac-712745deb67b" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ApplicationAgents>
 
 <BusinessFlowsRunList>
-<BusinessFlowRun BusinessFlowGuid="018bd31a-5f94-406c-9bf7-022156c4475e" BusinessFlowInstanceGuid="4c5c4978-69ab-4e90-a87f-e76f458bdadd" BusinessFlowIsActive="True" BusinessFlowName="Create Customer – Prepaid" Guid="df990670-6f59-4b30-90cc-28420198d2df" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<BusinessFlowRun BusinessFlowGuid="acf8ae73-45a5-4ece-ba9a-8e3b305b3053" BusinessFlowInstanceGuid="bf009bfc-41f9-4199-9b65-970c798643d0" BusinessFlowIsActive="True" BusinessFlowName="Provide – Prepaid" Guid="e5232679-fa56-4de3-b3cc-cb51d6de22ec" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="018bd31a-5f94-406c-9bf7-022156c4475e" BusinessFlowInstanceGuid="4c5c4978-69ab-4e90-a87f-e76f458bdadd" BusinessFlowIsActive="True" BusinessFlowName="Create Customer – Prepaid" Guid="cf8267fd-75a1-4ea0-a360-45a07f13e887" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="acf8ae73-45a5-4ece-ba9a-8e3b305b3053" BusinessFlowInstanceGuid="bf009bfc-41f9-4199-9b65-970c798643d0" BusinessFlowIsActive="True" BusinessFlowName="Provide – Prepaid" Guid="171df683-15e3-4851-b577-1e84053e17cc" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </BusinessFlowsRunList>
 </GingerRunner>
 </GingerRunners>
+
+<RunSetActions>
+<RunSetActionHTMLReport Condition="AlwaysRun" Guid="3ab8c4d1-65c5-4c24-99fc-7f85a0a8fe62" Name="Produce HTML Report" ParentGuid="00000000-0000-0000-0000-000000000000" RunAt="ExecutionEnd" />
+<RunSetActionHTMLReportSendEmail Condition="AlwaysRun" Guid="ad53c3e2-6eb6-4695-b7e8-8daaebc9536b" HTMLReportTemplate="HTMLReport" MailFrom="mahesh.shahane@amdocs.com" MailTo="mahessha@amdocs.com" Name="Send HTML Report Email" ParentGuid="00000000-0000-0000-0000-000000000000" RunAt="ExecutionEnd">
+<Email>
+<Email EmailMethod="SMTP" Guid="e1f607ff-ee6b-4f9d-92d0-0bc4cb5103f7" ParentGuid="00000000-0000-0000-0000-000000000000" SMTPPort="25">
+<Attachments>
+</Attachments>
+</Email>
+</Email>
+</RunSetActionHTMLReportSendEmail>
+<RunSetActionJSONSummary Condition="AlwaysRun" Guid="dc78014e-8646-49ac-aee7-5ea678d6556d" Name="Produce JSON Summary Report" ParentGuid="00000000-0000-0000-0000-000000000000" RunAt="ExecutionEnd" />
+<RunSetActionGenerateTestNGReport Condition="AlwaysRun" Guid="2647b113-f503-4d75-934d-14684d1f3c80" IsStatusByActivity="True" Name="Produce TestNG Summary Report" ParentGuid="00000000-0000-0000-0000-000000000000" RunAt="ExecutionEnd" />
+<RunSetActionHTMLReportSendEmail Condition="AlwaysRun" Guid="53510add-3386-41a4-ae1c-da7602af0354" HTMLReportTemplate="HTMLReport" MailFrom="rupesh.dewalkar@amdocs.com" MailTo="rupeshd@amdocs.com" Name="Send HTML Report Email" ParentGuid="00000000-0000-0000-0000-000000000000" RunAt="ExecutionEnd">
+<Email>
+<Email EmailMethod="SMTP" Guid="94e22feb-6139-4481-8a3a-651aa177f667" ParentGuid="00000000-0000-0000-0000-000000000000" SMTPPort="25">
+<Attachments>
+</Attachments>
+</Email>
+</Email>
+</RunSetActionHTMLReportSendEmail>
+</RunSetActions>
 </RunSetConfig></GingerRepositoryItem>
