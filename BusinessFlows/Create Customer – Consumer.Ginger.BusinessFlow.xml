@@ -1,14 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="f2aabed7-fa0c-49a8-82ed-29db38c48ac7" ItemType="BusinessFlow" CreatedBy="MOHDKHAN" Created="201912260631" GingerVersion="3.4.0.0" Version="2" LastUpdateBy="MOHDKHAN" LastUpdate="202001090610" />
+<GingerRepositoryItem><Header ItemGuid="f2aabed7-fa0c-49a8-82ed-29db38c48ac7" ItemType="BusinessFlow" CreatedBy="MOHDKHAN" Created="201912260631" GingerVersion="3.5.0.0" Version="3" LastUpdateBy="MOHDKHAN" LastUpdate="202002031212" />
 <BusinessFlow Guid="f2aabed7-fa0c-49a8-82ed-29db38c48ac7" Name="Create Customer – Consumer" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="0a886ede-5291-400f-989b-cf9947f5631c" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="0a886ede-5291-400f-989b-cf9947f5631c" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp">
+<Variables>
+<VariableString Guid="1e048f53-ec5a-4aba-9b94-fc57a327c8c4" MappedOutputType="None" Name="New Variable String" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" />
+</Variables>
+</Activity>
 </Activities>
 
 <ActivitiesGroups>
 <ActivitiesGroup Guid="aefc4b9d-d326-48b3-b88d-1d7a8c3ccce0" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="0a886ede-5291-400f-989b-cf9947f5631c" ActivityName="Activity 1" Guid="6d96fb94-18e7-4385-9c60-cadbb3131550" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="0a886ede-5291-400f-989b-cf9947f5631c" ActivityName="Activity 1" Guid="54c0febd-426b-42a1-ae25-c26aea03e6c6" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
