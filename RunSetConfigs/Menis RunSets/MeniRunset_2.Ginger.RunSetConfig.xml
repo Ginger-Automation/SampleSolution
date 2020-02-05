@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="aa53f713-c30b-4a71-ada1-0b1eec9c74aa" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001131316" GingerVersion="3.5.0.0" Version="18" LastUpdateBy="sudarshs" LastUpdate="202001291210" />
+<GingerRepositoryItem><Header ItemGuid="aa53f713-c30b-4a71-ada1-0b1eec9c74aa" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001131316" GingerVersion="3.5.0.0" Version="20" LastUpdateBy="mahessha" LastUpdate="202002051035" />
 <RunSetConfig Guid="aa53f713-c30b-4a71-ada1-0b1eec9c74aa" Name="MeniRunset_2" ParentGuid="00000000-0000-0000-0000-000000000000">
 <GingerRunners>
 <GingerRunner Guid="69425d65-2774-4a58-8b92-c939393eb555" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" SpecificEnvironmentName="Env2" UseSpecificEnvironment="True">
@@ -8,10 +8,13 @@
 </ApplicationAgents>
 
 <BusinessFlowsRunList>
-<BusinessFlowRun BusinessFlowGuid="bf22b221-5373-4109-b719-c097a3734129" BusinessFlowInstanceGuid="0db1cfa0-43f7-4b37-b7b3-210cb5dfbabc" BusinessFlowIsActive="True" BusinessFlowName="DemoStore Login" Guid="d12c2039-4b08-4389-bc8d-a78c3ba0206f" ParentGuid="00000000-0000-0000-0000-000000000000">
+<BusinessFlowRun BusinessFlowGuid="bf22b221-5373-4109-b719-c097a3734129" BusinessFlowInstanceGuid="0db1cfa0-43f7-4b37-b7b3-210cb5dfbabc" BusinessFlowIsActive="True" BusinessFlowName="DemoStore Login" Guid="9edbfdc9-16e7-4de2-a5bb-6811ad4b8342" ParentGuid="00000000-0000-0000-0000-000000000000">
 <BusinessFlowCustomizedRunVariables>
-<VariableSelectionList DiffrentFromOrigin="True" Guid="a7439b7e-d6bb-492d-b6e5-606488a02b7e" MappedOutputType="None" Name="UserEmail" ParentGuid="bf22b221-5373-4109-b719-c097a3734129" ParentName="DemoStore Login" ParentType="Business Flow" SetAsOutputValue="False" Value="Dudu@amdocs.com" VarValChanged="True">
+<VariableSelectionList DiffrentFromOrigin="True" Guid="a7439b7e-d6bb-492d-b6e5-606488a02b7e" MappedOutputType="None" Name="UserEmail" ParentGuid="bf22b221-5373-4109-b719-c097a3734129" ParentName="DemoStore Login" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" Value="Eli@amdocs.com" VarValChanged="True">
 <OptionalValuesList>
+<OptionalValue Guid="d665ca59-04ad-4de3-b1ab-c4fbd09d1f9f" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Meni@amdocs.com" />
+<OptionalValue Guid="c71afd44-a658-4178-9b96-856ea19d39a7" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Dudu@amdocs.com" />
+<OptionalValue Guid="471e2f70-f3ff-4ccf-8df9-864ad3256f09" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Eli@amdocs.com" />
 <OptionalValue Guid="d665ca59-04ad-4de3-b1ab-c4fbd09d1f9f" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Meni@amdocs.com" />
 <OptionalValue Guid="c71afd44-a658-4178-9b96-856ea19d39a7" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Dudu@amdocs.com" />
 <OptionalValue Guid="471e2f70-f3ff-4ccf-8df9-864ad3256f09" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Eli@amdocs.com" />
@@ -23,7 +26,19 @@
 <OptionalValue Guid="471e2f70-f3ff-4ccf-8df9-864ad3256f09" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Eli@amdocs.com" />
 </OptionalValuesList>
 </VariableSelectionList>
+<VariableString DiffrentFromOrigin="True" Guid="c0860086-8ea5-4299-90b2-404f667cc24e" InitialStringValue="Ashkelon 5/66 aa" MappedOutputType="None" Name="Address" ParentGuid="bf22b221-5373-4109-b719-c097a3734129" ParentName="DemoStore Login" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" VarValChanged="True" />
 <VariableString DiffrentFromOrigin="True" Guid="61363a43-1fce-4f69-b004-17ba2e2600c6" InitialStringValue="bbbbbbbbbbbbb" MappedOutputType="None" Name="UserPassword" ParentGuid="5d00e833-2810-4045-9387-fd24713ae74f" ParentName="Store Login" ParentType="Activity" SetAsOutputValue="False" VarValChanged="True" />
+</BusinessFlowCustomizedRunVariables>
+</BusinessFlowRun>
+<BusinessFlowRun BusinessFlowGuid="bf22b221-5373-4109-b719-c097a3734129" BusinessFlowInstanceGuid="3b9a2864-33e7-459c-851c-7abc439959e8" BusinessFlowIsActive="True" BusinessFlowName="DemoStore Login" Guid="35aa82f2-8697-428e-9b6a-45234198b7e2" ParentGuid="00000000-0000-0000-0000-000000000000">
+<BusinessFlowCustomizedRunVariables>
+<VariableSelectionList DiffrentFromOrigin="True" Guid="a7439b7e-d6bb-492d-b6e5-606488a02b7e" MappedOutputType="None" Name="UserEmail" ParentGuid="bf22b221-5373-4109-b719-c097a3734129" ParentName="DemoStore Login" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" Value="Dudu@amdocs.com" VarValChanged="True">
+<OptionalValuesList>
+<OptionalValue Guid="d665ca59-04ad-4de3-b1ab-c4fbd09d1f9f" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Meni@amdocs.com" />
+<OptionalValue Guid="c71afd44-a658-4178-9b96-856ea19d39a7" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Dudu@amdocs.com" />
+<OptionalValue Guid="471e2f70-f3ff-4ccf-8df9-864ad3256f09" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Eli@amdocs.com" />
+</OptionalValuesList>
+</VariableSelectionList>
 </BusinessFlowCustomizedRunVariables>
 </BusinessFlowRun>
 </BusinessFlowsRunList>

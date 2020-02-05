@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="bf22b221-5373-4109-b719-c097a3734129" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202001131308" GingerVersion="3.5.0.0" Version="7" LastUpdateBy="MENIK" LastUpdate="202001131319" />
+<GingerRepositoryItem><Header ItemGuid="bf22b221-5373-4109-b719-c097a3734129" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202001131308" GingerVersion="3.5.0.0" Version="8" LastUpdateBy="mahessha" LastUpdate="202002051031" />
 <BusinessFlow Elapsed="6687" Guid="bf22b221-5373-4109-b719-c097a3734129" Name="DemoStore Login" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Store Login" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="5d00e833-2810-4045-9387-fd24713ae74f" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="DemoStore">
@@ -66,7 +66,7 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="0a470dfd-9e0e-4373-b967-17d8ff12f1c7" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="5d00e833-2810-4045-9387-fd24713ae74f" ActivityName="Store Login" Guid="e9c17aa5-2eea-4309-987f-88676e08a379" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="5d00e833-2810-4045-9387-fd24713ae74f" ActivityName="Store Login" Guid="af8dafe2-d3a7-4bc3-b7b5-3bd5dd2e065e" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
@@ -76,14 +76,14 @@
 </TargetApplications>
 
 <Variables>
-<VariableSelectionList Guid="a7439b7e-d6bb-492d-b6e5-606488a02b7e" MappedOutputType="None" Name="UserEmail" ParentGuid="bf22b221-5373-4109-b719-c097a3734129" ParentName="DemoStore Login" ParentType="Business Flow" SetAsOutputValue="False" Value="Meni@amdocs.com">
+<VariableSelectionList Guid="a7439b7e-d6bb-492d-b6e5-606488a02b7e" MappedOutputType="None" Name="UserEmail" ParentGuid="bf22b221-5373-4109-b719-c097a3734129" ParentName="DemoStore Login" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" Value="Meni@amdocs.com">
 <OptionalValuesList>
 <OptionalValue Guid="d665ca59-04ad-4de3-b1ab-c4fbd09d1f9f" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Meni@amdocs.com" />
 <OptionalValue Guid="c71afd44-a658-4178-9b96-856ea19d39a7" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Dudu@amdocs.com" />
 <OptionalValue Guid="471e2f70-f3ff-4ccf-8df9-864ad3256f09" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Eli@amdocs.com" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableString Guid="c0860086-8ea5-4299-90b2-404f667cc24e" InitialStringValue="Ashkelon 5/66" MappedOutputType="None" Name="Address" ParentGuid="bf22b221-5373-4109-b719-c097a3734129" ParentName="DemoStore Login" ParentType="Business Flow" SetAsInputValue="False" SetAsOutputValue="False" />
+<VariableString Guid="c0860086-8ea5-4299-90b2-404f667cc24e" InitialStringValue="Ashkelon 5/66" MappedOutputType="None" Name="Address" ParentGuid="bf22b221-5373-4109-b719-c097a3734129" ParentName="DemoStore Login" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
 <VariableRandomNumber Guid="fe178a6a-ec4e-4941-a20f-48bc52c37773" Interval="0" IsInteger="True" MappedOutputType="None" Max="50" Min="1" Name="Age" ParentGuid="bf22b221-5373-4109-b719-c097a3734129" ParentName="DemoStore Login" ParentType="Business Flow" SetAsInputValue="False" SetAsOutputValue="False" />
 </Variables>
 </BusinessFlow></GingerRepositoryItem>
