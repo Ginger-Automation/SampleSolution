@@ -1,14 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="c08ad0d1-d676-4ed4-b9b7-bd1954dbd85c" ItemType="BusinessFlow" CreatedBy="mahessha" Created="202003050952" GingerVersion="3.5.0.0" Version="1" LastUpdateBy="mahessha" LastUpdate="202003050952" />
+<GingerRepositoryItem><Header ItemGuid="c08ad0d1-d676-4ed4-b9b7-bd1954dbd85c" ItemType="BusinessFlow" CreatedBy="mahessha" Created="202003050952" GingerVersion="3.5.0.0" Version="2" LastUpdateBy="mahessha" LastUpdate="202003051039" />
 <BusinessFlow Guid="c08ad0d1-d676-4ed4-b9b7-bd1954dbd85c" Name="CUrrentTimeStamp" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="f1df15c6-ad4a-43c6-bb7e-87ceb18de3d3" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="Test2" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="f1df15c6-ad4a-43c6-bb7e-87ceb18de3d3" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Test2">
+<Acts>
+<ActSetVariableValue Active="True" Description="Set Variable Action" Guid="cfaa8359-4019-4276-ba26-fd4b25833959" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SetVariableValueOption="SetValue" StatusConverter="None" VariableName="New Variable String" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="6e242aee-f492-4d4b-b526-1a77ec7b476d" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{CS Exp=DateTime.Now}" />
+</InputValues>
+</ActSetVariableValue>
+</Acts>
+
+<Variables>
+<VariableString Guid="7ef5eaa1-8565-4891-afda-0e13ade22a3d" MappedOutputType="None" Name="New Variable String" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Variables>
+</Activity>
 </Activities>
 
 <ActivitiesGroups>
 <ActivitiesGroup Guid="09e92bd2-beb4-48c3-8119-6192b69e5119" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="f1df15c6-ad4a-43c6-bb7e-87ceb18de3d3" ActivityName="Activity 1" Guid="49e1ef00-545c-4a35-987b-528b0a8548e3" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="f1df15c6-ad4a-43c6-bb7e-87ceb18de3d3" ActivityName="Activity 1" Guid="9f00dfb2-bfae-43f6-86b8-94a6c192f098" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
