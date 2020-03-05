@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="c08ad0d1-d676-4ed4-b9b7-bd1954dbd85c" ItemType="BusinessFlow" CreatedBy="mahessha" Created="202003050952" GingerVersion="3.5.0.0" Version="1" LastUpdateBy="mahessha" LastUpdate="202003050952" />
+<BusinessFlow Guid="c08ad0d1-d676-4ed4-b9b7-bd1954dbd85c" Name="CUrrentTimeStamp" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="f1df15c6-ad4a-43c6-bb7e-87ceb18de3d3" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="Test2" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="09e92bd2-beb4-48c3-8119-6192b69e5119" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="f1df15c6-ad4a-43c6-bb7e-87ceb18de3d3" ActivityName="Activity 1" Guid="49e1ef00-545c-4a35-987b-528b0a8548e3" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="Test2" Guid="8d5988f2-e51b-41ea-b9f5-c266cbeeb196" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

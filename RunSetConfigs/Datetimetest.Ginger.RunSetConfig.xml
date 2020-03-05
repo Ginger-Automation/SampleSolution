@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="65376621-aa70-413a-a434-eeadf1988ed0" ItemType="RunSetConfig" CreatedBy="mahessha" Created="202003050954" GingerVersion="3.5.0.0" Version="3" LastUpdateBy="mahessha" LastUpdate="202003050956" />
+<RunSetConfig Guid="65376621-aa70-413a-a434-eeadf1988ed0" Name="Datetimetest" ParentGuid="00000000-0000-0000-0000-000000000000">
+<GingerRunners>
+<GingerRunner Guid="63244acb-7228-4551-bc24-8b4ad9b4cbf7" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AgentID="4798350a-b5dc-4b37-ac3e-aa056b53cd08" AgentName="MyWebApp - Agent 1" AppID="c762277d-181b-4dd2-aef9-dfc9bd7f8d16" AppName="Test2" Guid="5f5d413b-d8a5-4f71-bfe1-cbe287fd88e0" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="c08ad0d1-d676-4ed4-b9b7-bd1954dbd85c" BusinessFlowInstanceGuid="590bbff0-098b-44b3-a3e0-e4e2cfa68832" BusinessFlowIsActive="True" BusinessFlowName="CUrrentTimeStamp" Guid="4b49eb35-c3ad-4187-bcaf-a8bec351ef7e" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+</GingerRunners>
+</RunSetConfig></GingerRepositoryItem>
