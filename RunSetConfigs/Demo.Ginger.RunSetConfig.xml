@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="dbd1f336-b148-4404-88b1-06520a89a03b" ItemType="RunSetConfig" CreatedBy="MOHDKHAN" Created="201908291229" GingerVersion="3.4.0.0" Version="8" LastUpdateBy="MOHDKHAN" LastUpdate="201909040725" />
-<RunSetConfig Guid="dbd1f336-b148-4404-88b1-06520a89a03b" Name="Demo" ParentGuid="00000000-0000-0000-0000-000000000000">
+<GingerRepositoryItem><Header ItemGuid="dbd1f336-b148-4404-88b1-06520a89a03b" ItemType="RunSetConfig" CreatedBy="MOHDKHAN" Created="201908291229" GingerVersion="3.6.0.0" Version="11" LastUpdateBy="sudarshs" LastUpdate="202008191241" />
+<RunSetConfig Guid="dbd1f336-b148-4404-88b1-06520a89a03b" Name="Demo" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <GingerRunners>
 <GingerRunner Guid="9fa5f65c-46b5-416a-9e4f-799091932ca5" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
 <ApplicationAgents>
-<ApplicationAgent AgentName="Plugin-Webservice" AppName="MyWebServicesApp" Guid="59fe3a9b-4039-438b-9acc-3d79cc10140b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ApplicationAgent AgentID="8859bf71-482d-4576-bf7d-03f3318de83b" AgentName="Plugin-Webservice" AppID="4238801f-3e76-45cc-b45e-525eeaa5e87e" AppName="MyWebServicesApp" Guid="59fe3a9b-4039-438b-9acc-3d79cc10140b" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ApplicationAgents>
 
 <BusinessFlowsRunList>
-<BusinessFlowRun BusinessFlowGuid="4f041002-2b77-4184-aa24-140719186948" BusinessFlowInstanceGuid="1a6c9c72-6989-4c9c-8e1f-0154f6ec98db" BusinessFlowIsActive="True" BusinessFlowName="WebService Demo" Guid="323787a2-82d1-49e6-a8fd-4eb613ea8f16" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="4f041002-2b77-4184-aa24-140719186948" BusinessFlowInstanceGuid="1a6c9c72-6989-4c9c-8e1f-0154f6ec98db" BusinessFlowIsActive="True" BusinessFlowName="Web" Guid="82c0d955-1311-4bd3-859e-048b12aeb62d" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </BusinessFlowsRunList>
 </GingerRunner>
 </GingerRunners>
