@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="4f041002-2b77-4184-aa24-140719186948" ItemType="BusinessFlow" CreatedBy="MOHDKHAN" Created="201907180903" GingerVersion="3.6.0.0" Version="39" LastUpdateBy="sudarshs" LastUpdate="202008191221" />
+<GingerRepositoryItem><Header ItemGuid="4f041002-2b77-4184-aa24-140719186948" ItemType="BusinessFlow" CreatedBy="MOHDKHAN" Created="201907180903" GingerVersion="3.6.0.0" Version="40" LastUpdateBy="sudarshs" LastUpdate="202008310806" />
 <BusinessFlow Guid="4f041002-2b77-4184-aa24-140719186948" Name="Web" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="WebSerice" AutomationStatus="Automated" ErrorHandlerMappingType="AllAvailableHandlers" Guid="8be154d5-e5bb-47e5-9474-bdb231966ae0" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebServicesApp">
@@ -29,7 +29,7 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="1d1cab82-2040-408b-b1de-df34c3495ad1" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="8be154d5-e5bb-47e5-9474-bdb231966ae0" ActivityName="WebSerice" Guid="91101f82-2142-40fc-afa2-bb8cfc64985d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="8be154d5-e5bb-47e5-9474-bdb231966ae0" ActivityName="WebSerice" Guid="567cf0ac-59b0-4753-833c-439531717fd1" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
